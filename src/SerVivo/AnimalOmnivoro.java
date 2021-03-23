@@ -9,12 +9,15 @@ package SerVivo;
  *
  * @author Andres
  */
-public class Planta extends SerVivo{
-    
-    //Aca v Le indicamos al programa que estamos sobre escribiendo el codigo.
+public class AnimalOmnivoro extends Animal
+{
+
     @Override
-    public void alimentarse(){
-        System.out.println("La planta se alimenta por fotoSintesis y me alimento bien");
+    public void alimentarse() {
+        System.out.println("Yo puedo comer lo que sea que rico");
+    }
+    public AnimalOmnivoro(){
+    
     }
     
 }

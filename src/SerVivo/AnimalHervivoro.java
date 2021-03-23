@@ -14,4 +14,8 @@ public class AnimalHervivoro extends Animal {
     public void alimentarse(){
         System.out.println("Yo me alimento con hiervas y ramas de arboles y me alimento bien");
     }
+    public AnimalHervivoro()
+    {
+    
+    }
 }
