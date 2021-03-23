@@ -9,7 +9,6 @@ package SerVivo;
  *
  * @author Andres
  */
-public abstract class Planta extends SerVivo{
+public abstract class Flores extends Planta{
     
-   
 }

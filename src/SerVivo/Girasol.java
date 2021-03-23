@@ -9,7 +9,11 @@ package SerVivo;
  *
  * @author Andres
  */
-public abstract class Planta extends SerVivo{
+public class Girasol extends Flores {
+
+    @Override
+    public void alimentarse() {
+        System.out.println("Tengo que recibir sol directamente para poder estar lindo");
+    }
     
-   
 }

@@ -21,11 +21,15 @@ public class FirstAppPOO {
         AnimalHervivoro Conejo = new AnimalHervivoro();
         Conejo.alimentarse();
         
-        Planta Girasol = new Planta();
-        Girasol.alimentarse();
+        Cactus elCactus = new Cactus();
+        elCactus.alimentarse();
         
         AnimalCarnivoro Leon = new AnimalCarnivoro();
         Leon.alimentarse();
+        
+      Girasol MiGirasol = new Girasol();
+      MiGirasol.alimentarse();
     }
+    
     
 }

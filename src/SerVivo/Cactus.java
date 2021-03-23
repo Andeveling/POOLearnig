@@ -9,7 +9,11 @@ package SerVivo;
  *
  * @author Andres
  */
-public abstract class Planta extends SerVivo{
+public class Cactus extends Planta {
+
+    @Override
+    public void alimentarse() {
+        System.out.println("Puedo almacenar agua y estar muchos dias sin comer");    
+    }
     
-   
 }
