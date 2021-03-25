@@ -12,7 +12,7 @@ package SerVivo;
 public class  AnimalCarnivoro extends Animal {
     @Override
     public void alimentarse(){
-        System.out.println("El animal carnivoro se alimenta de carne, mmmm que rico");
+        System.out.println("El animal carnivoro se alimenta de carne y mas carne mmmm que rico");
     }
     
 }
