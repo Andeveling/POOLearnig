@@ -13,7 +13,7 @@ public class Cactus extends Planta {
 
     @Override
     public void alimentarse() {
-        System.out.println("Puedo almacenar agua y estar muchos dias sin comer");    
+        System.out.println("Puedo almacenar agua y estar muchos dias sin comer en el desierto");    
     }
     
 }
